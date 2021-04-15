@@ -1,9 +1,104 @@
-/*Seletor universal*/
-/**{
-    border:solid red 5px;
-}*/
-/*Seletor de texto*/
-/*h1{
-    color:green;
-}*/
-/*seletor de class*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family:inherit;    
+}
+body{
+    background-color: #f0f2f5;
+}
+.conteudo{
+    position: absolute;
+    left: 37%;
+    top:5vh;
+}
+.conteudo img{
+    width:230px;
+    margin:20px;
+    margin-left: 80px;
+}
+.formulario{
+    background-color: #fff;
+    width:396px;
+    border-radius: 8px;
+    box-shadow:  0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.formulario h1{
+    font-size: 18px;
+    font-family: Tahoma;
+    font-weight: normal;
+    text-align: center;
+    padding: 25px;
+}
+.input-text-email{
+    display: block;
+    margin: 10px;
+    margin-left: 20px;
+    margin-top: 5px;
+    padding: 14px 16px;
+    border-radius: 6px;
+    border:1px solid #dddfe2;
+    width: 80%;
+}
+.input-text-senha{
+    display: block;
+    margin-left: 20px;
+    margin-top: -15px;
+    padding: 14px 16px;
+    border-radius: 6px;
+    width: 80%;
+    border:1px solid #dddfe2
+}
+::placeholder{
+    font-size: 16px;
+    font-family: Tahoma;
+}
+
+.Entrar{
+    padding: 14px 16px;
+    border-radius: 6px;
+    width: 89%;
+    margin-left: 20px;
+    margin-top:-5px;
+    color:white;
+    background-color: #1877f2;
+    font-family: Tahoma;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+}
+.esquecel-senha{
+    margin:15px;
+    text-align: center;
+    font-family: Tahoma;
+}
+.esquecel-senha a{
+    text-decoration: none;
+    color:#1877f2
+}
+.criar-conta{
+    color:white;
+    padding: 14px 16px;
+    margin-bottom: 20px;
+    width: 65%;
+    border-radius: 6px;
+    background-color: #42b72a;
+    font-family: Tahoma;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+.conta{
+    margin-bottom:20px;
+    margin-left: 25%;
+    margin-top:10px;
+}
+.linha{
+    height: 2px;
+    width:9999%;
+    padding: 10px;
+    margin-left: 45%;
+    font-family: Tahoma;
+    font-size: 15px;
+    color:#96999e;
+}
