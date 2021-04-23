@@ -1,0 +1,49 @@
+/*Barra de navefação horizontal*/
+.vertical ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+.vertical ul a{
+    display:block;
+    width:200px;
+    height:40px;
+    color:#000;
+    text-decoration:none;
+    text-indent: 40px;
+    line-height: 40px; 
+    background:#f7b600 url('imagens/menu.png') no-repeat;
+}
+
+.vertical ul a:hover{
+    background-position-x: right;
+    background-color: #f99200;
+    color:white;
+}
+
+.horizontal ul{
+
+    margin:0;
+    padding: 0;
+    list-style: none;
+    width: 720px;
+    background:#159cb0 url(imagens/fundo-horizontal.png) repeat-x;
+    float:left;
+}
+.horizontal ul li{
+    float:left;
+}
+
+.horizontal a{
+    
+    display: block;
+    padding: 0 2em;
+    line-height: 2.2em;
+    text-decoration: none;
+    color:white;
+    background: url('imagens/divisor.png') repeat-y;
+}
+.horizontal a:hover{
+    color:#085662;
+    background: #44cade;
+}

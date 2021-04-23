@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 36px;
+
+}
+
+p{
+    width: 80%;
+    padding:5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    font-size: 20px;
+}
+
+a{
+    color:rgba(255, 0, 0, 0.548);
+    text-decoration: none;
+}
+a:hover{
+    color:red;
+    text-decoration: underline;
+}
+
+.button{
+    padding: 20px  190px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.dark-mode{
+    background-color: black;
+    color:white;
+}
+.dark-mode a{
+    color:#7fffd4;
+}
+.dark-mode a:hover{
+    color:#20bd88;
+}
