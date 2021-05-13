@@ -1,0 +1,23 @@
+    .menu ul li{
+        background-color:#6da3f9;
+        color:white;
+        float:left;
+        width: 200px;
+        height: 40px;
+        display: inline-block;
+        text-align: center;
+        line-height: 40px;
+        font-size: 25px;
+    }
+    .menu ul li:hover{
+        background-color: #2c69cc;
+    }
+    .menu ul{
+        padding: 0;
+    }
+    .menu ul ul{
+        display:  none;
+    }
+    .menu ul li:hover > ul{
+        display: block;
+    }
