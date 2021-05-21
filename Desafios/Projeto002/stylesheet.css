@@ -1,0 +1,98 @@
+/*Reset da página*/
+body{
+    background-color: rgb(204, 204, 204);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*textos*/
+.textos{
+    padding:20px;
+    text-align: center;
+}
+.textos h2{
+    color: gray;
+    font-size: 22px;
+}
+.textos h1{
+    color:black;
+    font-size: 26px;
+}
+.textos p{
+    color:gray;
+}
+
+/*Card-1*/
+.card-1{
+    padding: 10px;
+    width: 400px;
+    border-top: 5px red solid;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.856);
+    background-color: white;
+    position:relative;
+    top:1vh;
+    left:35%;
+}
+.card-1 p{
+    color:gray;
+    text-align: left;
+}
+/*card-2*/
+.card-2{
+    padding: 10px;
+    width: 400px;
+    border-top: 5px green solid;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.856);
+    background-color: white;
+    float:left;
+    position:relative;
+    top: 1vh;
+    left: 1%;
+}
+.card-2 p{
+    color:gray;
+    text-align: left;
+}
+/*card-3*/
+.card-3{
+    padding: 10px;
+    width: 400px;
+    border-top: 5px orange solid;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.856);
+    background-color: white;
+    float:left;
+    position:relative;
+    top: 1vh;
+    left: 39%;
+}
+.card-3 p{
+    color:gray;
+    text-align: left;
+}
+/*card-4*/
+.card-4{
+    padding: 10px;
+    width: 400px;
+    border-top: 5px yellow solid;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.856);
+    background-color: white;
+    clear: both;
+    position: relative;
+    left: 35%;
+}
+.card-4 p{
+    color:gray;
+    text-align: left;
+}
+/*Conteudo*/
+.conteudo{
+    width: 1400px;
+    height:1100px;
+    margin:auto;
+    margin-top: 25px;
+    background-color: rgb(241, 240, 240);
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.568);
+    clear:both;
+}

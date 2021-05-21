@@ -1,0 +1,111 @@
+/*Reset da página*/
+body{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240, 240, 240);
+}
+
+/*Container*/
+.conteudo{
+    background-color: white;
+    box-shadow: 0 0 0.8em gray;
+    width: 800px;
+    height: 457px;
+    margin: 10% auto;
+    border-radius: 10px;
+}
+@media (max-width: 900px){
+    .conteudo{
+        height: 650px;
+    }
+}
+
+/*Container superior*/
+.topo{
+    padding: 30px;
+}
+.topo h1{
+    color:rgb(0, 119, 255);
+    font-size: 26px;
+}
+.topo h2{
+    color: rgb(113, 170, 28);
+    font-size: 20px;
+    margin:5px;
+}
+.topo p{
+    color:gray;
+    font-size: 18px;
+    text-align: justify;
+    margin:5px;
+}
+/*container esquerdo*/
+.esquerda{
+    padding: 30px 40px;
+    width: 320px;
+    float: left;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(37, 173, 144);
+    color:white;
+}
+@media (max-width: 900px){
+    .esquerda{
+        display: block;
+        width: 720px;
+        border-radius: 0;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.esquerda h2{
+    font-size: 20px;
+}
+.esquerda h3{
+    font-size: 26px;
+}
+.esquerda button{
+    width: 250px;
+    height: 40px;
+    background-color:rgb(153, 230, 38); 
+    color:white;
+    border:none;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.219);
+    
+}
+.texto-complementar{
+    font-size: 16px;
+}
+
+ /*Container direito*/
+ .direita{
+    background-color: rgb(41, 204, 169);
+    color:white;
+    padding: 40px;
+    width: 320px;
+    float: left;
+    border-bottom-right-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.direita h1{
+    font-size:20px;
+}
+.direita p{
+    font-size: 18px;
+    text-align: justify;
+}
+.texto-complementar{
+    color:aqua;
+}
+
+@media (max-width: 900px){
+    .direita{
+        display: block;
+        width: 720px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}
